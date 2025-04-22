@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippet Format="1.0.0">
+  <Header>
+    <Title>lst of generic type (var)</Title>
+    <Shortcut>vlstgen</Shortcut>
+    <Description>Generic lst of generic type (var) snippet with tab-through for variable and type</Description>
+    <Author>Michael See</Author>
+    <SnippetTypes>
+      <SnippetType>Expansion</SnippetType>
+    </SnippetTypes>
+  </Header>
+  <Snippet>
+    <Declarations>
+  <Literal>
+    <ID>name</ID>
+    <ToolTip>Variable name</ToolTip>
+    <Default>placeholder</Default>
+  </Literal>
+  <Literal>
+    <ID>type</ID>
+    <ToolTip>Generic type</ToolTip>
+    <Default>T</Default>
+  </Literal>
+    </Declarations>
+    <Code Language="csharp">
+      <![CDATA[
+var $name$ = new List<$type$>();
+      ]]>
+    </Code>
+  </Snippet>
+</CodeSnippet>
