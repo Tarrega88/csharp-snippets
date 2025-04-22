@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippet Format="1.0.0">
+  <Header>
+    <Title>arr of generic type (var)</Title>
+    <Shortcut>varrgen</Shortcut>
+    <Description>Generic arr of generic type (var) snippet with tab-through for variable and type</Description>
+    <Author>Michael See</Author>
+    <SnippetTypes>
+      <SnippetType>Expansion</SnippetType>
+    </SnippetTypes>
+  </Header>
+  <Snippet>
+    <Declarations>
+  <Literal>
+    <ID>name</ID>
+    <ToolTip>Variable name</ToolTip>
+    <Default>placeholder</Default>
+  </Literal>
+  <Literal>
+    <ID>type</ID>
+    <ToolTip>Generic type</ToolTip>
+    <Default>T</Default>
+  </Literal>
+  <Literal>
+    <ID>size</ID>
+    <ToolTip>Array size</ToolTip>
+    <Default>0</Default>
+  </Literal>
+    </Declarations>
+    <Code Language="csharp">
+      <![CDATA[
+var $name$ = new $type$[$size$];
+      ]]>
+    </Code>
+  </Snippet>
+</CodeSnippet>

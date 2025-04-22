@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippet Format="1.0.0">
+  <Header>
+    <Title>string enumerable (var)</Title>
+    <Shortcut>vienstring</Shortcut>
+    <Description>Declares a new string enumerable using var</Description>
+    <Author>Michael See</Author>
+    <SnippetTypes>
+      <SnippetType>Expansion</SnippetType>
+    </SnippetTypes>
+  </Header>
+  <Snippet>
+    <Declarations>
+      <Literal>
+        <ID>name</ID>
+        <ToolTip>Variable name</ToolTip>
+        <Default>placeholder</Default>
+      </Literal>
+  <Literal>
+    <ID>size</ID>
+    <ToolTip>Array size</ToolTip>
+    <Default>0</Default>
+  </Literal>
+    </Declarations>
+    <Code Language="csharp">
+      <![CDATA[
+      <![CDATA[
+var $name$ = new string[$size$];
+      ]]>
+      ]]>
+    </Code>
+  </Snippet>
+</CodeSnippet>
